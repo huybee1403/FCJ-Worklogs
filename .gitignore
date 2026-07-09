@@ -1,0 +1,11 @@
+# Hugo build output & cache
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Node (theme tooling)
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db

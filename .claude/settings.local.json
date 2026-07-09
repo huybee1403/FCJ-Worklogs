@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "PowerShell(Get-Process | Where-Object { $_.ProcessName -match 'hugo|node|Code' } | Select-Object Id, ProcessName, Path | Format-Table -AutoSize)"
+    ]
+  }
+}
